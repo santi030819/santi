@@ -1,0 +1,54 @@
+package p1santi;
+
+import java.util.Scanner;
+
+public class santi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				String desea_seguir = null;
+			
+			do {		Scanner leer= new Scanner(System.in);
+			Scanner seguir= new Scanner(System.in);
+			System.out.println("introduce un numero: ");
+	long numero=leer.nextInt();
+	if (numero>0 && numero<10) {
+		int digitos=1;
+		System.out.println("tiene "+digitos+  "digitos");}
+	else if (  10<numero && 100>numero) {
+			int digitos2=2;
+			System.out.println("tiene "+digitos2+  "digitos");}
+			if( 100<numero && 1000>numero) {
+				int digitos3=3;
+				System.out.println("tiene "+digitos3+  "digitos");}
+			else if ( 1000<numero && 10000>numero) {
+					int digitos4=4;
+					System.out.println("tiene "+ digitos4+  "digitos");}
+					if ( 10000<numero && 100000>numero) {
+						int digitos5=5;
+						System.out.println("tiene "+digitos5+  "digitos");}
+					else if (100000<numero && 1000000>numero) {
+							int digitos6=6;
+							System.out.println("tiene "+digitos6+  "digitos");}
+							if ( 1000000<numero && 10000000>numero) {
+								int digitos7=6;
+								System.out.println("tiene "+digitos7+  "digitos");}
+							else {System.out.println("Gracias por probar mi programa");}
+						
+	
+	System.out.println("¿desea seguir? ");
+	desea_seguir=seguir.next();
+
+				
+			
+				
+
+			
+			
+			} while (desea_seguir.equalsIgnoreCase("confirmar")); 
+				
+			
+			}
+}
+
+		
